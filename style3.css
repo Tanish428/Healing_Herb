@@ -1,0 +1,20 @@
+h2{
+  font-size: 50px;
+  text-align: center;
+  font-family: 'Copperplate Gothic Light';
+}
+h4{
+  font-size: 20px;
+  text-align:center;
+  font-family: 'Yu Gothic Light';
+  margin-left: 45px;
+  margin-right: 45px;
+}
+table
+{
+
+  width: 100%;
+  border: 0px solid black
+  ;
+  padding: 75px;
+}
