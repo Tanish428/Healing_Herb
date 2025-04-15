@@ -1,0 +1,93 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+
+.header {
+    background-color: #004d00;
+    color: white;  
+    text-align: center;
+    padding: 50px 10px;
+    font-size: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+
+.header h1 {
+    color: white ;
+}
+
+
+h2 {
+    color: #228B22; 
+}
+
+h3 {
+    color: #2E8B57; 
+}
+
+
+.section {
+    background-color: rgba(255, 255, 255, 0.85); 
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 40px auto;
+    padding: 20px;
+    width: 90%;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.section:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+
+.section-img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.section-img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    font-size: 18px;
+    margin: 8px 0;
+    line-height: 1.5;
+}
+
+
+.footer {
+    background-color: #004d00; 
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+    font-size: 16px;
+}
+
+
+
