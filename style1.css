@@ -90,6 +90,11 @@
     max-width: 100%;
     height: auto;
   }
+  .website-title{
+  font-family: 'Brush Script MT', cursive;
+  text-align: center;
+  font-size: 50px;
+}
 }
 
 @media (max-width: 768px) {
@@ -106,12 +111,15 @@
     height: 40px;
   }
 
-  .website-title {
-    font-size: 28px;
-  }
+  .website-title{
+  font-family: 'Brush Script MT', cursive;
+  text-align: center;
+  font-size: 50px;
+}
 }
 
-@media (max-width: 480px) {
+@media (max-width: 480px)
+{
   .dropbtn, .navbar a {
     font-size: 14px;
     padding: 8px;
@@ -130,6 +138,11 @@
   .footer-column p, .footer-column ul li {
     font-size: 14px;
   }
+  .website-title{
+  font-family: 'Brush Script MT', cursive;
+  text-align: center;
+  font-size: 50px;
+}
 }
 body {
   margin: 0;
@@ -322,6 +335,11 @@ footer {
   .luxury-heading {
     font-size: 36px;
   }
+  .website-title{
+  font-family: 'Brush Script MT', cursive;
+  text-align: center;
+  font-size: 50px;
+}
 }
 
 
@@ -382,6 +400,11 @@ footer {
   .footer-column li {
     font-size: 12px;
   }
+  .website-title{
+  font-family: 'Brush Script MT', cursive;
+  text-align: center;
+  font-size: 50px;
+}
 }
 
 
@@ -430,4 +453,9 @@ footer {
   .luxury-heading {
     font-size: 22px;
   }
+  .website-title{
+  font-family: 'Brush Script MT', cursive;
+  text-align: center;
+  font-size: 50px;
+}
 }
